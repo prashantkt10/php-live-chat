@@ -7,5 +7,5 @@ Features:<br />
 4: Profile modification.<br />
 5: Responsive UI design with Bootstrap.<br />
 <br /><br />
-Technologies used: <br />
-HTML, CSS, PHP, JavaScript, Ajax, JQuery, XML
+Technologies/ Frameworks used: <br />
+HTML, CSS, PHP, JavaScript, Ajax, JQuery, XML, Bootstrap
