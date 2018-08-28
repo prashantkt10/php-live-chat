@@ -1,0 +1,117 @@
+body, html{
+    background-color: #f9f5f5!important;
+}
+#scroll1{
+    height:440px;
+    overflow-y: auto;
+}
+
+#scroll2{
+    overflow-y: scroll; 
+    height:395px;
+}
+
+#newMsg{
+    width: 100%;
+    height: 85px;
+    overflow-y: scroll;
+    resize: none;
+    padding: 5px 5px 0 5px;
+}
+.btn.btn-info, .btn.btn-danger, #submit, #loginUser{
+    width: 100px;
+    padding: 6px 15px;
+    text-align: center;
+    border-radius: 0;
+    height: auto;
+    margin-bottom: 5px;
+}
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn{
+    background-color: #3e6994;
+    color: #f7f1f1;
+}
+.well{
+    background-color: #dce9f1;
+}
+footer.footer_cont{
+    position: fixed;
+    width: 100%;
+    height: auto;
+    left: 0;
+    background-color: #f3f3f3;
+}
+.btnMain{
+    height: 90px;
+}
+.btnMain .btnCont{
+    position: relative;
+    height: 100%;
+}
+.btnCont #send{
+    position: absolute;
+    top: 50%;
+    /* left: 50%; */
+    transform: translateY(-50%);
+}
+.btnCont #clear{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%);
+}
+.navbar-inverse {
+    background-color: #3a87ad;
+    border-color: #3a87ad;
+    margin: 0;
+}
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:hover, .navbar-inverse .navbar-nav>.active>a:focus,.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus, .navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+    color: #ffffff;
+    background-color: #3a87ad;
+}
+.panel-primary {
+    border-color: #3a87ad;
+}
+.panel-primary>.panel-heading {
+    color: #ffffff;
+    background-color: #3a87ad;
+    border-color: #3a87ad;
+}
+.bg-success {
+    background-color: #d3ffd4;
+    color: #000;
+    position: relative;
+    border: 0px;
+    padding-left: 13px;
+}
+.bg-success::before{
+    content: "";
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #5ade5a;
+    position: absolute;
+    top: 50%;
+    left: 3px;
+    transform: translateY(-50%);
+}
+@media only screen and (min-width :300px) and (max-width:480px){
+    #chatData pre{
+        font-size: 12px;
+        padding: 5px;
+    }
+    .btnMain .btnCont {
+        position: relative;
+        height: auto;
+    }
+    #newMsg{
+        height: 75px;
+        margin-top: -10px;
+    }
+    #scroll1{
+        height:320px;
+        overflow-y: auto;
+    }
+    #send{
+        margin-top: 10px;
+    }
+}
