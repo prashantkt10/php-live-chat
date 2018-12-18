@@ -1,5 +1,4 @@
-# zauba
-Zauba technical round assignment<br /><br />
+# PHP Live Chat
 Features:<br />
 1: Login & Registration<br />
 2: Showing live users in right side<br />
